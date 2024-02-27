@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #7e7c93;
+
+
+}
+
+.profile-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    background-color: #7e7c93;
+}
+
+.profile-image {
+    border-radius: 50%;
+    width: 60px; /* Adjust the width as needed */
+    height: 60px; /* Adjust the height as needed */
+    margin-right: 20px;
+}
+
+h1 {
+    margin: 0;
+    margin-bottom: 0px;
+    color: #5e5671;
+}
+
+/* Add the following styles at the end of your CSS file */
+.resume-link {
+    text-align: center;
+    margin-top: 10px; /* Adjust the margin as needed */
+}
+
+/* Add the following styles at the end of your CSS file */
+.resume-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px; /* Adjust the margin as needed */
+}
+
+.resume-button {
+    display: inline-block;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #5e5671; /* Choose your preferred color */
+    color: white;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.resume-button:hover {
+    background-color: 4a4a4a; /* Choose a darker color for hover effect */
+}
+
+
+
+/* Additional styles to center the attached resume link */
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #7e7c93;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+nav li {
+    margin: 0;
+    padding: 10px;
+}
+
+section {
+    text-align: left;
+    width: 80%; /* Adjust the width as needed */
+}
+
+a {
+    color: black; /* Change to your preferred color */
+}
+
+a:hover {
+    color: #333; /* Change to your preferred color on hover */
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #7e7c93;
+}
